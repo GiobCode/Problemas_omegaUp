@@ -25,12 +25,9 @@ int main() {
         if(arr[x] == 0)
         {
             v.push_back(x);
-            arr[x]++;
-        }else
-        {
-           arr[x]++;
+          
         }
-
+        arr[x]++;
     }
 
     sort(v.begin(),v.end());
