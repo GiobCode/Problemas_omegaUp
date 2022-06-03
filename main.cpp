@@ -24,8 +24,8 @@ int main() {
         cin>>x;
         if(arr[x] == 0)
         {
-           v.push_back(x);
-           arr[x]++;
+            v.push_back(x);
+            arr[x]++;
         }else
         {
            arr[x]++;
